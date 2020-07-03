@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My CV Webapp</title>
-    <link rel="stylesheet" type="text/css" href="MyStyle.css">
-  </head>
-  <body>
-  <h1>My CV</h1>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Neil's Pages</title>
+</head>
+<body>
 
+<h1>DR P's Sandbox</h1>
+<!-- Navigation Bar -->
+<?php
+include "navbar.php";
+?>
+<h2>What  do you want to do?</h2>
 
-<h2>My Code Dictionary</h2>
-<form action="GetMeCode.php" method="post">
-<table border=0 cellpadding=1>
-<tr>
-<td>What do you want to do?</td>
-<td>In what Language?</td>
-</tr>
-<tr>
-<td>
-<select name="task"><!-- we can ulimately poplluate this from the database using PHP -->
-  <option value=""></option><!-- empty dummy option to stop  inadvertant selection of top item -->
-  <option value="Display">Display to Screen</option>
-  <option value="Prompt">Prompt for input</option>
-  <option value="Vardef">Define a variable</option>
-  <option value="Popup">Popup box</option>
-</select>
-</td>
-<td>
-<select name="language"><!-- we can ulimately poplluate this from the database using PHP -->
-  <option value=""></option><!-- empty dummy option to stop  inadvertant selection of top item -->
-  <option value="Python">Python</option>
-  <option value="Prompt">JavaScript</option>
-  <option value="Vardef">PHP</option>
-  <option value="Popup">C#</option>
-</select>
-</td>
-</tr>
-</table>
-<input type="submit">
+<div class="panel">
+<P>These pages have been created as a learning resource for you to use (please see the links below). 
+However, because they were created using technologies that you should be familiar with, 
+I have placed the source code onto Github, so that you can create your own version. (<a href="https://github.com/NeilParkerBSDC/L3Y1PSummerProject-Glossary" target="_blank">link here</a>)</p>
+<br/>
+<form action="getcode.php" method="post">
+<input type="submit" value="Use the code dictionary" class="submitbutton">
 </form>
+&nbsp;<br/>
+<form action="glossary.php" method="post">
+<input type="submit" value="Use the Glossary" class="submitbutton">&nbsp;
+<span style="background-color: yellow; color: red;">not yet created</span> 
+</form>
+<br/>&nbsp;<br/>
+</div>
 
 
 </body>
