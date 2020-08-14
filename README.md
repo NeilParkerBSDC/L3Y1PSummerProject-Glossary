@@ -4,7 +4,7 @@ This project demonstrates how to set up a dynamic website which contains a searc
 
 # Project Progress
 
-AS at 14-08-2020 I have a rudimentary working version of the website [https://drpssandbox.000webhostapp.com/](https://drpssandbox.000webhostapp.com/), with some of the code files uploaded.
+AS at 14-08-2020 I have a rudimentary working version of the website [https://drpssandbox.000webhostapp.com/](https://drpssandbox.000webhostapp.com/), with some of the code files uploaded onto this repo.
 
 Note that for obvious reasns, the version of the conect.php files is a sample one (the one I have used on the local version I have of the site in XAMPP using the default uerbname and password) rather than the actual connect.php I use of the live website.
 
