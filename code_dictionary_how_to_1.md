@@ -1,5 +1,7 @@
 # Learning Resource Website: How to 1 - Creating the backend database
 
+[Link back to readme.md](https://github.com/NeilParkerBSDC/L3Y1PSummerProject-Glossary/blob/master/README.md)
+
 ## Why have a database behind a website?
 
 Websites can be categorized as **Static** or **dynamic**. A static site uses html to set out the content (text, images etc.) on the page. To change this you need to go into the code and re-write the HTML. A dynamic website uses html to set out a container for content. The actual content is stored in a database and sent to the container:
