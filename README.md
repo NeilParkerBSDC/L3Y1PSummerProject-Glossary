@@ -153,17 +153,16 @@ Once I have a clear idea of my database structure and a data dictionary, i can s
 
 I hae two choices, now, I could use the GUI tools in PHPMYAdmin or I could write and SQL script to create the database. The GUI tools are more user friendly, but using a script mans that, one you have written it, recreating the database later (e.g. on a different server, or if you e to delete the database tables because of a problem), then it is much quicker.
 
-First your need to create a database:
+First you need to create a database:
 
 {note if you are creating a live website on a host such as 000websots.com then this stage will have been done for you.)
 
 1) Create a new database:
 
-
-
 ![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image1.png)
 
 2) Create new table in that database:
+
 ![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image2.png)
 
 ![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image3.png)
