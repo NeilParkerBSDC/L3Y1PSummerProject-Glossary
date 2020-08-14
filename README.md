@@ -166,3 +166,5 @@ First you need to create a database:
 ![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image2.png)
 
 ![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image3.png)
+
+<span style="background-color: yellow; color: red;">TO BE CONTINUED ... </span>
