@@ -131,7 +131,7 @@ It’s useful to use a design tool to create a diagram that shows how the tables
 
 
 
-![DatabaseDiagram1.PNG](:/ed3d3b73edb84ff48b6348f6598b841d)
+![Database Diagram1](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/DatabaseDiagram1.png)
 
 Before we create the tables of data in the database management software (for this website we are going to be using the MySQL database through an interface called PHPMYAdmin.) We need to add some more information to the tables. We need to have an idea of the types of data which are going to be stored in them. For this we use a design tool called a data dictionary:
 
