@@ -6,7 +6,7 @@ Websites can be categorized as **Static** or **dynamic**. A static site uses htm
 The content in a dynamic website is stored and edited within the database. This becomes useful in a website where the content needs changing or adding to frequently 9e.g. an online shop, a news site etc.)
 
 
-![Static&DynamicWebsites.png](:/4dae031e94ea40a9998b7305fc87b02b)
+![Static and Dynamic Websites](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/Static&DynamicWebsites.png)
 
 The cntent in a dynamic website is stored and edited within thedatabase. This becomes useful in a website where the content needs changing or adding to freuqently 9e.g. an online shop, a news site etc.)
 
