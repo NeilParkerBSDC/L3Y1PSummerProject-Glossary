@@ -3,19 +3,19 @@
 ## Why have a database behind a website?
 
 Websites can be categorized as **Static** or **dynamic**. A static site uses html to set out the content (text, images etc.) on the page. To change this you need to go into the code and re-write the HTML. A dynamic website uses html to set out a container for content. The actual content is stored in a database and sent to the container:
-The content in a dynamic website is stored and edited within the database. This becomes useful in a website where the content needs changing or adding to frequently 9e.g. an online shop, a news site etc.)
+The content in a dynamic website is stored and edited within the database. This becomes useful in a website where the content needs changing or adding to frequently (e.g. an online shop, a news site etc.)
 
 
 ![Static and Dynamic Websites](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/Static&DynamicWebsites.png)
 
-The cntent in a dynamic website is stored and edited within thedatabase. This becomes useful in a website where the content needs changing or adding to freuqently 9e.g. an online shop, a news site etc.)
+The content in a dynamic website is stored and edited within thedatabase. This becomes useful in a website where the content needs changing or adding to freuqently (e.g. an online shop, a news site etc.)
 
 
 If I am going to create a dynamic database. I need to have a clear idea of the information I am going to store in the database before I start building the website. A good place to start is to think about the things that I am going to be storing data on. WE call these things “Entities” in database terminology.
 
 
 ## What is a database?
-A database can be thought of a set of interlinked lists or tables  of data. They are interlinked because by getting one list to refer to another we can save on repeating data. Repeated data is unnecessary and slows down the operation of the computer. The table represents the real world entities” we are trying to hold information about, or links between them.
+A database can be thought of a set of interlinked lists or tables  of data. They are interlinked because by getting one list to refer to another we can save on repeating data. Repeated data is unnecessary and slows down the operation of the computer. The table represents the real world "entities” we are trying to hold information about, or links between them.
 
 We use a table to list the items we want to store as information because a table can divide up the information into rows, columns and individual cells.
 
@@ -27,7 +27,7 @@ We use a table to list the items we want to store as information because a table
 | | 2 |Jane| 21/03/2001 |
 | | 3 | Bill| 26/12/2002 |
 
-In a database table the rows represent the items we are listing (we call these records in database terminology)) and the columns represent the attributes of each of those items (we call these fields). I could select all the attributes (fields)  for record 1 to find out all the information about Bob, I could select just the date of birth attribute (field) for all the people, or I could home in on an individual cell - using a query that says SELECT date of birth FROM table WHERE name=”Bob”.
+In a database table the rows represent the items we are listing (we call these records in database terminology)) and the columns represent the attributes of each of those items (we call these fields). I could select all the attributes (fields)  for record 1 to find out all the information about Bob, I could select just the date of birth attribute (field) for all the people, or I could home in on an individual cell - using a query that says <code>SELECT date of birth FROM table WHERE name=”Bob”.</code>
 
 In this website, in the code dictionary section is that we can have a list of things we want to do in different programming languages. For instance I might want to know how to create an if ... statement in Python, but then later want to know how to do an if statement JavaScript. I could create a database with a long list of things that I want to be able to do:
 
@@ -41,13 +41,13 @@ In this website, in the code dictionary section is that we can have a list of th
 
 Note this table of data as an ID column, because we need a unique identifier (known as the primary key) for each item of data within a table.
 
-In this table I am repeating information. Two rows repeat the task “Create an if statement”, two rws repeat the language “Python” etc. This is unnecessary repetition which can clog up computer memory and slow things down.
+In this table I am repeating information. Two rows repeat the task “Create an if statement”, two rows repeat the language “Python” etc. This is unnecessary repetition which can clog up computer memory and slow things down.
 
 To be more efficient, instead of one table of data which repeats the information, I actually need three smaller tables which are linked.
 
-The information I has consists of two lists - a list of things I want to be able to do (“Tasks”, and a list of programming languages. Each of these can be in a separate table. I do not need to repeat the wordy thighs in each list i.e. I only need the task “Create an if statement” in the tasks list once.
+The information I has consists of two lists - a list of things I want to be able to do (“Tasks”, and a list of programming languages. Each of these can be in a separate table. I do not need to repeat the wordy parts in each list i.e. I only need the task “Create an if statement” in the tasks list once.
 
-To create my list of all the things I want to be able to do in all the different languages, I need a third table which links them together. This does repeat information, but the information it repeats is very small - it is the unique identifier for the other two tables.
+To create my list of all the things I want to be able to do in all the different languages, I need a third table which links them together. This **does** repeat information, but the information it repeats is very small - it is the unique identifier for the other two tables.
 
 E.g.
 
@@ -121,15 +121,13 @@ E.g.
 </table>
 
 
-The tasks and languages tables does not repeat data, but the links table does,b however the items of repeated data are much smaller.
+The tasks and languages tables does not repeat data, but the links table does, however the items of repeated data are much smaller.
 
 ## Designing the database
 
 We can now design the database. 
 
 It’s useful to use a design tool to create a diagram that shows how the tables of data will be related:
-
-
 
 ![Database Diagram1](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/DatabaseDiagram1.PNG)
 
@@ -149,7 +147,7 @@ E.g.
 ## Creating the database
 
 
-Once I have a clear idea of my database structure and a data dictionary, i can start to create the database. To do this I use the PHPMyAdmin web-based GUI for the MySQL database.
+Once I have a clear idea of my database structure and a data dictionary, I can start to create the database. To do this I use the PHPMyAdmin web-based GUI for the MySQL database.
 
 I hae two choices, now, I could use the GUI tools in PHPMYAdmin or I could write and SQL script to create the database. The GUI tools are more user friendly, but using a script mans that, one you have written it, recreating the database later (e.g. on a different server, or if you e to delete the database tables because of a problem), then it is much quicker.
 
