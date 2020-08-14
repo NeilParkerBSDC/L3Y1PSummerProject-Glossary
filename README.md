@@ -161,6 +161,9 @@ First your need to create a database:
 
 
 
-![image1.png](:/4d04c53fb8a14930bc674a7c35d1be9c)
+![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image1.png)
 
 2) Create new table in that database:
+![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image2.png)
+
+![Create new database](https://drpssandbox.000webhostapp.com/images/DocumentationScreenshots/CodingDict_image3.png)
