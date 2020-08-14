@@ -16,4 +16,4 @@ I will be creating a series of 'How to' files to give you a walk though of hos I
 
 | File (link) | Status |
 |:------|:---------|
-| Learning Resource Website: How to 1 - Creating the backend database | Paetially Complete |
+| [Learning Resource Website: How to 1 - Creating the backend database](https://github.com/NeilParkerBSDC/L3Y1PSummerProject-Glossary/blob/master/code_dictionary_how_to_1.md) | Paetially Complete |
